@@ -1,0 +1,226 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="background.jpg">
+<center>
+  <span>
+  <h3 class="heading">
+    CASE STUDY BETWEEN GOOGLE LENS AND MOBILENET
+  </h3>
+  <br>
+  <br>
+  <h3>
+    GOOGLE LENS
+  </h3>
+  <img src="Google_Lens_-_new_logo.png">
+  <br>
+  <br>
+  <b class = "heading">VS</b>
+  <br>
+  <br>
+  <h4 class = "btn btn-primary">
+    MobileNet
+  </h4>
+  </span>
+  <br>
+  <hr>
+  <br>
+  <ol>
+    <span>
+    <div class = "bob">
+      <li>
+        <b>
+          Test Image -
+        </b>
+        <img src = "images.png" class = "img_responsive">
+      </li>
+      <h5>
+        Output on <b>Google Lens</b> - 
+        <span> Borosil hydra trek bottle </span>
+      </h5> 
+            <h5>
+        Output on <b>MobileNet Model</b> - 
+        <span> vacuum, vacuum cleaner </span>
+      </h5> 
+      <div class = "mini result">
+        <h4>
+          Result - 
+        </h4>
+        <hr>
+        <h4>
+          Google Lens
+        </h4>
+      </div>
+    </div>
+    </span>
+    <hr>
+  </ol>
+  <br>
+  <br>
+
+  <ol>
+    <span>
+    <div class = "bob">
+      <li>
+        <b>
+          Test Image -
+        </b>
+        <img id = "Headmobile" src = "Headphone.png" class = "img_responsive">
+      </li>
+      <h5>
+        Output on <b>Google Lens</b> - 
+        <span> On-ear headphone </span>
+      </h5>
+            <h5>
+        Output on <b>MobileNet Model</b> - 
+        <span> Monitor </span>
+      </h5>
+      <div class = "mini result">
+        <h4>
+          Result - 
+        </h4>
+        <hr>
+        <h4>
+          Google Lens
+        </h4>
+      </div>
+    </div>
+    </span>
+    <hr>
+  </ol>
+  <br>
+  <br>
+
+  <ol>
+    <span>
+    <div class = "bob">
+      <li>
+        <b>
+          Test Image -
+        </b>
+        <img id = "laptop" src = "Laptop.png" class = "img_responsive">
+      </li>
+      <h5>
+        Output on <b>Google Lens</b> - 
+        <span> hp pavilion aero ultra thin & light 13 </span>
+      </h5>
+            <h5>
+        Output on <b>MobileNet Model</b> - 
+        <span> laptop, laptop computer </span>
+      </h5>
+      <div class = "mini result">
+        <h4>
+          Result - 
+        </h4>
+        <hr>
+        <h4>
+          MobileNet Model
+        </h4>
+      </div>
+    </div>
+    </span>
+    <hr>
+  </ol>
+  <br>
+  <br>
+
+  <ol>
+    <span>
+    <div class = "bob">
+      <li>
+        <b>
+          Test Image -
+        </b>
+        <img src = "Phone.png" class = "img_responsive">
+      </li>
+      <h5>
+        Output on <b>Google Lens</b> - 
+        <span> Samsung Galaxy S21 Ultra 5G </span>
+      </h5>
+            <h5>
+        Output on <b>MobileNet Model</b> - 
+        <span> cellular telepone, cellular phone, cellphone, cell, mobile phone. </span>
+      </h5>
+      <div class = "mini result">
+        <h4>
+          Result - 
+        </h4>
+        <hr>
+        <h4>
+          Google Lens
+        </h4>
+      </div>
+    </div>
+    </span>
+    <hr>
+  </ol>
+  <br>
+  <br>
+
+  <ol>
+    <span>
+    <div class = "bob">
+      <li>
+        <b>
+          Test Image -
+        </b>
+        <img id = "pen" src = "Pen.png" class = "img_responsive">
+      </li>
+      <h5>
+        Output on <b>Google Lens</b> - 
+        <span> Energel liquid gel ink pens black </span>
+      </h5>
+            <h5>
+        Output on <b>MobileNet Model</b> - 
+        <span> letter opener, paper knife, paperknife </span>
+      </h5>
+      <div class = "mini result">
+        <h4>
+          Result - 
+        </h4>
+        <hr>
+        <h4>
+          Google Lens
+        </h4>
+      </div>
+    </div>
+    </span>
+    <hr>
+  </ol>
+  <br>
+
+  <div class = "btn btn-warning" style = "border: 5px solid black;">
+		<p>
+			I have tested 5 images
+			<br>
+			<b>
+				MobileNet
+			</b>
+			have predicted 1 of them correctly. And <b>Google Lens</b> have  predicted 4 of them correctly. And<br>
+			So acording to my case study<b>Google Lens</b> is more Accurate
+		</p>
+		</div>
+  <br>
+  <br>
+  <br>
+<div class="copy_right_footer">
+  Developed by - Parth Saxena
+</div>
+</center>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
+

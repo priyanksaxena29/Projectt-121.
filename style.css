@@ -1,0 +1,40 @@
+  .heading
+  {
+    color: red;
+  }
+
+ .copy_right_footer
+ {
+   position: fixed;
+   color:black;
+   bottom:0;
+   width:100%;
+   background-color:turquoise;
+   line-height:3;
+   text-align:center;
+ }
+
+.bob
+{
+  background-color: grey;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+#Headmobile
+{
+  width: 200px;
+  height: 200px;
+}
+
+#pen
+{
+  width:200px;
+  height: 200px;
+}
+
+#laptop
+{
+  width:300px;
+  height: 200px;
+}
